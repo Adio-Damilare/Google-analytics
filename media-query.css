@@ -1,0 +1,498 @@
+@media screen and (max-width:400px) and (min-width:320px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        top: 0pc;
+        background-color: white;
+        height: 8pc;
+        box-shadow: 0px 3px 3px;
+    }
+    nav .google{
+        display: flex;
+    }
+    nav .google b{
+        font-size: 21px;
+        margin-left: 10px;
+        font-weight: lighter;
+    }
+    nav .google p{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    nav .email{
+        display: flex;
+    }
+    nav .email b{
+        margin-top: 11px;
+        font-size: small;
+        font-family: sans-serif;
+    }
+    nav .email img{
+        margin-left: -10px;
+        border-radius: 50%;
+    }
+    .section1{
+        height: 300vh;
+        /* display: flex; */
+        flex-direction: column;
+        border: 1px solid;  
+        box-sizing: border-box;
+    }
+    .online{
+        width: 100%;
+        height: 50%;
+        display: block;
+        padding-left: 100px;
+        font-family: sans-serif;
+    
+    } 
+    .online b{
+        font-size: large;
+        font-weight: lighter;
+    } 
+    .online h2{
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    .img{
+        width: 100%;
+        height: 50%;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .section2{
+        background-color:  #2962FF;
+        height: 200pc;
+        padding-left: 10px;
+    }
+    .section2 .display-flex{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    .section2 .display-flex .beginner{
+        background-color: #ffff;
+        height: 15%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .section2 .display-flex .beginner #img{
+        height: 20%;
+    }
+    .section2 .display-flex .beginner h2{
+        height: 20%;
+    
+    }
+    .section2 .display-flex .beginner P::first-letter{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .section2 .display-flex .beginner P{
+        height: 30%;
+        font-weight: lighter;
+    }
+    .section2 #h2{
+        font-weight: lighter;
+        height:10% ;
+        padding-top: 60px;
+        color: white;
+        font-size: xx-large;
+    }
+    .section2 .display-flex .beginner #arrow{
+        margin-top: 60px;
+        margin-left: 220px;
+    } 
+    .section2 .display-flex .beginner h2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .section3{
+        background-color: white;
+        padding: 80px;
+    }
+    .instructors{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 3px 3px 4px 3px;
+        width: 100%;
+    }
+    .instructors h2{
+        height: 20%;
+        width: 100%;
+    }
+    .instructors#flex{
+        width: 100%;
+    }
+    .instructors hr{
+        margin-left: 10px;
+    }
+    .instructors p{
+        margin: 30px 0px 0px 20px;
+    }
+    .youtube{
+        height: 100vh; 
+    }
+    .youtube h2{
+        height: 200px;
+        padding-top: 40px;
+        font-weight: lighter;
+        font-size: 27px;
+    }
+    .youtube p{
+        height: 100px;   
+        font-size: 15.1px;
+        line-height: 21px;
+        font-weight: lighter;
+    }
+   
+    #optimise{
+        width: 100%;
+        height: 210vh;
+        display: flex;
+        flex-direction: column;
+        padding-right: 70px;
+    }
+    #optimise .firebase{
+        background: #F2F2F2;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px 1px;
+        margin: 10px 0px 0px 0px;
+        padding: 05px;
+        width: 100%;
+        height: 200px;
+    } 
+    .firebase a{
+        margin-left:00px;
+        height: 50%;
+    }
+    .firebase a, p{
+        height: 50%;
+       text-decoration: none;
+       color:  #000;
+        
+    }
+    footer{
+        background-color: #F2F2F2;
+        height: 280vh;
+    }
+    footer h2{
+        margin: 0px 0px 0px 0px;
+        font-weight: lighter;
+        font-size: 20px;
+        height: 100px;
+        padding-top: 50px;
+    }
+    footer #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80%;
+    }
+    footer #footer a{
+        height: 100px;
+        width: 100%;
+        margin: 40px 0px;
+        text-decoration: none;
+        text-align: center;
+        color: #000;
+        font-weight: lighter;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    footer #footer a p{
+        height: 60%;
+        width: 100%;
+    }
+    .send #label:hover{
+        background-color: #E8E8E8;
+    }
+    .send label select{
+        border: none;
+        outline: none;
+    }
+    .send a, label{
+        text-decoration: none;
+        margin: 10px ;
+        height: 30px;
+    }
+    .send{
+        width:100%;
+        /* border: 2px solid; */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+        height: 400px;
+        justify-content: end;
+    }
+    .send label select option{
+        width: 130px;
+    }
+    
+    
+    
+    
+}
+@media screen and (max-width:600px) and (min-width:401px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+        position: sticky;
+        top:0px;
+        background-color: white;
+        height: 90px;
+        box-shadow: 0px 3px 3px;
+    }
+    nav .google{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .google b{
+        font-size: 25px;
+        margin-left: 0px;
+        font-weight: lighter;
+    }
+    nav .google p{
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    nav .email{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .email b{
+        margin-top: 11px;
+        font-size: small;
+        font-family: sans-serif;
+    }
+    nav .email img{
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+    .section1{
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;  
+        box-sizing: border-box;
+    }
+    .online{
+        width: 100%;
+        height: 300px;
+        display: block;
+        padding-left: 50px;
+        padding-top: 70px; 
+        padding-right:0px ;
+        justify-content: space-between;
+        font-family: sans-serif;
+    
+    } 
+    .online b{
+        font-size: large;
+        font-weight: lighter;
+        margin-top: 30px;
+        position: relative;
+        top: 30px;
+    }
+    .online h2{
+        font-size: 41px;
+        font-weight: lighter;
+    }
+    .img{
+        height: 300px;
+       
+        width: 100%;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .section2{
+        background-color:  #2962FF;
+        height: 500vh;
+        padding-left: 40px;
+    }
+    .section2 .display-flex{
+        width: 99%;
+        height: 6000vh;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    .section2 .display-flex .beginner{
+        background-color: #ffff;
+        height: 500px;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .section2 .display-flex .beginner #img{
+        height: 100px;
+    }
+    .section2 .display-flex .beginner h2{
+        height: 50px;
+    
+    }
+    .section2 .display-flex .beginner P::first-letter{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .section2 .display-flex .beginner P{
+        height: 300px;
+        font-weight: lighter;
+    }
+    .section2 #h2{
+        font-weight: lighter;
+        height:200px ;
+        padding-top: 60px;
+        color: white;
+        font-size: xx-large;
+    }
+    .section2 .display-flex .beginner #arrow{
+        margin-top: 0px;
+        margin-left:20pc;
+    } 
+    .section2 .display-flex .beginner h2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .section3{
+        background-color: white;
+        padding: 80px;
+    }
+    .instructors{
+        display: flex;
+        flex-direction: column; 
+        font-weight: lighter;
+        font-size: 15.7px;
+        margin-top: 30px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 1px;
+        background: #F2F2F2;
+    
+    
+    }
+    .instructors h2{
+        height: 20%;
+        margin: 40px 0px 0px 20px;
+    }
+    .instructors hr{
+        margin-left: 0px;
+    }
+    .instructors p{
+        padding: 10px;
+        line-height: 21px;
+        margin: 20px 0px 20px 20px;
+    }
+    .youtube p{
+        height: 100px;
+        font-size: 15.1px;
+        line-height: 21px;
+        font-weight: lighter;
+    }
+    .youtube h2{
+        height: 100px;
+        padding-top: 40px;
+        font-weight: lighter;
+        font-size: 27px;
+    }
+    #optimise{
+        width: 100%;
+        height: 21vh;
+        display: flex;
+        padding-right: 70px;
+    }
+    #optimise .firebase{
+        background: #F2F2F2;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px 1px;
+        margin: 10px;
+        padding: 10px;
+        width: 25%;
+        height: 100%;
+    } 
+    .firebase a{
+        margin-left:120px;
+        height: 50%;
+    }
+    .firebase a, p{
+        height: 50%;
+       text-align: center;
+       text-decoration: none;
+       color:  #000;
+        
+    }
+    footer{
+        background-color: #F2F2F2;
+        height: 40vh;
+    }
+    footer h2{
+        margin: 0px 0px 0px 80px;
+        font-weight: lighter;
+        font-size: 20px;
+        height: 20%;
+        padding-top: 10px;
+    }
+    footer #footer {
+        display: flex;
+        justify-content: center;
+        height: 40%;
+    }
+    footer #footer a{
+        height: 100%;
+        width: 20%;
+        margin: 40px;
+        text-decoration: none;
+        text-align: center;
+        color: #000;
+        font-weight: lighter;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    footer #footer a p{
+        height: 60%;
+        width: 100%;
+    }
+    .send #label:hover{
+        background-color: #E8E8E8;
+    }
+    .send label select{
+        border: none;
+        outline: none;
+    }
+    .send a, label{
+        text-decoration: none;
+        margin: 20px;
+        height: 30px;
+    }
+    .send{
+        width:45%;
+        display: flex;
+        position: relative;
+        left: 70px;
+        justify-content: end;
+    }
+    .send label select option{
+        width: 130px;
+    }
+    
+    
+    
+}
